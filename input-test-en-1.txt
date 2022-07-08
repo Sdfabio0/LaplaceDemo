@@ -1,0 +1,4 @@
+Employees with less than 3 months of seniority will not work at night.
+Employees from the 3rd gang and 6th gang do not work on afternoon shifts.
+Employees with less than 6 months of seniority will not work on afternoon.
+Loaders only work on the morning shift.

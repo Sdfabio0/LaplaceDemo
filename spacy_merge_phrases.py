@@ -45,11 +45,12 @@ def generate_noun_phrase_sent(phrase):
     for token in doc:
         print(token.text, token.pos_, token.dep_, token.head.text)
         words = nltk.word_tokenize(token.text)
-        if len(words) >= 2:
+        if len(words) >= 2 and len(words)<=3:
             merge_word = '_'.join(words)
+            sent.append(merge_word)
         else:
-            merge_word = words[0]
-        sent.append(merge_word)
+            for wrd in words:
+            	 sent.append(wrd)
 
     sent = ' '.join(sent)
     puncts = [',','.',':',';',r"'"]

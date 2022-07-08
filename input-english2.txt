@@ -1,0 +1,4 @@
+{"sentence":"Employees with less than 3 months of seniority will not work at night."}
+{"sentence":"Employees from the_3rd_gang and 6th_gang do not work on afternoon_shifts."}
+{"sentence":"Employees with less than 6 months of seniority will not work on afternoon."}
+{"sentence":"Loaders only work on the_morning_shift."}
