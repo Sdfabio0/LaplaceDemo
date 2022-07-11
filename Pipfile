@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pipenv = "*"
 matplotlib = "*"
 names = "*"
 en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz"}
@@ -20,4 +21,4 @@ xlsxwriter = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
