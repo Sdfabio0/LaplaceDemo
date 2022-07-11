@@ -4,8 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+matplotlib = "*"
+names = "*"
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz"}
+networkx = "*"
+nltk = "*"
+pymupdf = "*"
+scikit-learn = "*"
+ortools = "*"
+plotly = "*"
+default-jre
+xlsxwriter = "*"
+
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
