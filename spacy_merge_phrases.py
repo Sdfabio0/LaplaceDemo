@@ -2,8 +2,6 @@ import spacy
 import nltk
 import os
 
-os.system('python3 -m spacy download en_core_web_sm')
-
 nlp = spacy.load("en_core_web_sm")
 
 def merge_phrases(doc):
